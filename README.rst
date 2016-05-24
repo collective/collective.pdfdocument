@@ -6,7 +6,8 @@
 collective.pdfdocument
 ==============================================================================
 
-Tell me what your product does
+This package provides PDF metadata extraction and cover image generation for
+collective.documentfile. Please see collective.documentfile for more information.
 
 Features
 --------
