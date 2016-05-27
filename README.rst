@@ -6,6 +6,9 @@
 collective.pdfdocument
 ==============================================================================
 
+.. image:: https://travis-ci.org/collective/collective.pdfdocument.svg?branch=master
+    :target: https://travis-ci.org/collective/collective.pdfdocument
+
 This package provides PDF metadata extraction and cover image generation for
 collective.documentfile. Please see collective.documentfile for more information.
 
