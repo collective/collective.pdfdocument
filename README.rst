@@ -9,8 +9,9 @@ collective.pdfdocument
 .. image:: https://travis-ci.org/collective/collective.pdfdocument.svg?branch=master
     :target: https://travis-ci.org/collective/collective.pdfdocument
 
-This package provides PDF metadata extraction and cover image generation for
-collective.documentfile. Please see collective.documentfile for more information.
+This package provides PDF metadata extraction and cover image generation
+for Plone. Please see the collective.filemeta package for more information
+(at github or PyPI).
 
 Features
 ---------
@@ -39,15 +40,12 @@ Contribute
 
 - Issue Tracker: https://github.com/collective/collective.pdfdocument/issues
 - Source Code: https://github.com/collective/collective.pdfdocument
-- Documentation: https://docs.plone.org/foo/bar
 
 
 Support
 -------
 
 If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
-
 
 License
 -------
