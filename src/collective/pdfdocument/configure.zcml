@@ -10,11 +10,18 @@
 
   <include package=".browser" />
 
-  <adapter
-      for="plone.namedfile.interfaces.INamedFile"
-      provides="collective.documentfile.interfaces.IDocumentInfo"
-      factory=".adapters.PDFDocumentInfo"
-      name="application/pdf"/>
+
+   <utility
+       provides="collective.filemeta.interfaces.IFileMetaProvider"
+       factory=".utilities.MetaProvider"
+       name="application/pdf"/>
+    />
+
+   <utility
+       provides="collective.filemeta.interfaces.IContentMetaUpdater"
+       factory=".utilities.ContentUpdater"
+       name="application/pdf"/>
+    />
 
   <genericsetup:registerProfile
       name="default"
